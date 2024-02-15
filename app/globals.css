@@ -16,16 +16,10 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+.clip {
+  clip-path: polygon(0 0, 89% 0, 100% 11%, 100% 91%, 92% 100%, 13% 100%, 0 91%, 0% 20%);
 
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
