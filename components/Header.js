@@ -5,7 +5,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header className="w-full min-h-[741px] bg-[url('/images/header-bg.png')] bg-no-repeat bg-cover bg-black relative before:absolute before:top-0 before:left-0 before:w-full before:h-1 before:bg-black after:absolute after:bottom-0 after:left-0 after:w-full after:h-1 after:bg-[#09080C] ">
-      <div className="absolute top-0 left-0 w-[250px] lg:w-[500px] h-full">
+      <div className="absolute top-0 left-0 w-[200px] lg:w-[500px] h-full">
         <Image
           src="/images/shap1.png"
           fill
@@ -13,7 +13,7 @@ const Header = () => {
           alt="shap"
         />
       </div>
-      <div className="absolute top-0 right-0 w-[250px] lg:w-[400px] h-full">
+      <div className="absolute top-0 right-0 w-[200px] lg:w-[400px] h-full">
         <Image
           src="/images/shap2.png"
           fill
