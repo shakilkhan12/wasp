@@ -45,7 +45,7 @@ const Features = () => {
 
           {state.map((item, key) => (
             <div
-              className={`bg-[#17161A]/10 border border-zinc-600 backdrop-blur relative p-8 rounded-b-3xl rounded-tr-3xl clip min-h-[358px] ${
+              className={`bg-[#17161A]/80 border border-zinc-600 backdrop-blur relative p-8 rounded-b-3xl rounded-tr-3xl clip min-h-[358px] ${
                 item.id === 2 && "mt-12"
               }`}
               key={item.id}

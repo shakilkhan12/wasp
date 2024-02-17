@@ -21,6 +21,10 @@
   clip-path: polygon(0 0, 89% 0, 100% 11%, 100% 91%, 92% 100%, 13% 100%, 0 91%, 0% 20%);
 
 }
+.about-clip-path {
+  clip-path: polygon(0 0, 94% 0, 100% 8%, 100% 91%, 91% 100%, 5% 100%, 0 96%, 0% 20%);
+
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -6,8 +6,8 @@ const LearnAbout = () => {
     <section className="bg-[#09080C]">
       <div className="max-w-screen-xl mx-auto py-[250px] px-6">
         <div className="p-[1px] bg-gradient-to-r from-white to-[#0610FF] overflow-hidden rounded-tr-3xl rounded-br-3xl rounded-bl-3xl">
-          <div className="bg-[#17161A] p-12 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl">
-            <div className="flex flex-col md:flex-row md:space-x-14 md:items-center">
+          <div className="bg-[#17161A] p-12 rounded-tr-3xl rounded-br-3xl rounded-bl-3xl ">
+            <div className="flex flex-col md:flex-row md:space-x-14 md:items-center justify-between">
               <h1 className="text-white text-3xl leading-[45px] md:text-[54px] font-bold">
                 Learn about the Revolution
               </h1>
@@ -15,7 +15,7 @@ const LearnAbout = () => {
                 <FaBook /> <span>gitbook</span>
               </button>
             </div>
-            <p className="text-white text-lg mt-3">
+            <p className="text-white text-lg mt-8">
               Experience the true potential of decentralized liquidity. Empower
               your trading with Wasp Finance's groundbreaking liquidity layer,
               designed to deliver unparalleled depth and stability on Arbitrum.
